@@ -9,7 +9,7 @@ spec:
     - match:
         - headers:
             end-user:
-              exact: jason
+              exact: cloudgoopher
       route:
         - destination:
             host: reviews
@@ -17,4 +17,4 @@ spec:
     - route:
         - destination:
             host: reviews
-            subset: v3
+            subset: v1

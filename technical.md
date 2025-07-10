@@ -687,9 +687,16 @@ kubectl delete -f samples/addons/prometheus.yaml
 istioctl uninstall --purge -y
 
 # Stop Minikube
+# minikube stop -p istio-demo
+# minikube delete -p istio-demo
 minikube stop
 ```
 
+
+
+
+minikube stop -p istio-demo
+minikube delete -p istio-demo
 ## Conclusion
 
 Congratulations! You've successfully:
